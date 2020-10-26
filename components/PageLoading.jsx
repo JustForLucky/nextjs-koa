@@ -3,7 +3,7 @@ import { Spin } from 'antd'
 const PageLoading = () => (
     <div className="root">
         <Spin></Spin>
-        <style>{`
+        <style jsx>{`
             .root {
                 position: fixed;
                 left: 0;
